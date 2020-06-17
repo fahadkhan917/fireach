@@ -27,7 +27,7 @@ jobs:
          version: 12    
      
     - name: GitHub Action for Yarn
-      uses: Borales/actions-yarn@v2.3.0
+      uses: Borales/actions-yarn@v2.1.0
       with:
     # Yarn command
        cmd: install
@@ -38,6 +38,6 @@ jobs:
     - name: installing surge
       run: npm install -g surge
       
-    - name: deploying on surge
+    - name: Deploying on surge
       run: surge ./build http://firstre.surge.sh/ --token "f8c0af3e87a5d7578d4341bb74df27bd"
 
