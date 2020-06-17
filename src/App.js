@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   return (
-    <div><h1>hello world fahads khan listen all plz</h1>
+    <div><h1>hello world fahads khan listen all fahad</h1>
 </div>      
   );
 }
