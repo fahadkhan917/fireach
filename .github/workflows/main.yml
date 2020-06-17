@@ -36,7 +36,7 @@ jobs:
       run: yarn build 
        
     - name: installing surge
-      run: npm install
+      run: npm install -g surge
       
     - name: Deploying on surge
       run: surge ./build http://firstre.surge.sh/ --token "f8c0af3e87a5d7578d4341bb74df27bd"
